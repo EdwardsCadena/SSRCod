@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github User</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="finder" >
+        <h1>Find Github User</h1>
+        <div class="pseudo-search">
+            <input type="text" id="username-input" placeholder="Search...">
+            <button id="submit-button"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+    <div class="center" style="margin-top: 100px;">
+        <div class="card">
+            <div class="additional">
+                <div class="user-card">
+                    <div id="username" class="level center">username</div>
+                    <img id="avatar" class="round" src="https://randomuser.me/api/portraits/women/44.jpg" alt="user" />
+                    <div id="created" class="points center">Joined January 2019</div>
+                </div>
+                <div class="more-info">
+                    <div style="display: none;" id="id"></div>
+                    <h1 id="name"></i>John Doe</h1>
+                    <div class="coords">
+                        <i class="fa fa-map-marker-alt"></i>  <span id="location"> New York, NY</span></i>
+                        <span style="margin-left: 10px;"><i class="fab fa-twitter" ></i><span id="twitter-username">twitter</span></span>
+                    </div>
+                    <a id="blog" class="center" href="/"><i class="fa fa-blog"></i> Blogs</a>
+                    <div class="stats">
+                        <div>
+                            <div class="title"><i class="fa fa-archive"></i> Repos</div>
+                            <div class="value" id="repos">300</div>
+                        </div>
+                        <div>
+                            <div class="title"><i class="fa fa-user-friends"></i> Followers</div>
+                            <div class="value" id="followers">200</div>
+                        </div>
+                        <div>
+                            <div class="title"><i class="fa fa-user-plus"></i> Following</div>
+                            <div class="value" id="following">100</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
